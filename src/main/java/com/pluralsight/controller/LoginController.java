@@ -12,4 +12,11 @@ public class LoginController {
         System.out.println("In Login Page");
         return "login";
     }
+
+    @RequestMapping(value = "/loginFailed", method = RequestMethod.GET)
+    public String loginFailed(ModelMap model) {
+        System.out.println("Failed ! ");
+        model.addAttribute("error", "true");
+        return "login";
+    }
 }
