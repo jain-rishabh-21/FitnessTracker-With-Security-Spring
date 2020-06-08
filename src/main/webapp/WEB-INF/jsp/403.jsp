@@ -7,11 +7,11 @@
 
 <body >
 <h3>
-    Logout Page
+    403 Page
 </h3>
 
 <h4>
-    Thanks for using
+    NOT AUTHORIZED
 </h4>
 </body>
 </html>

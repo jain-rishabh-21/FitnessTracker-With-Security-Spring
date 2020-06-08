@@ -25,4 +25,10 @@ public class LoginController {
         System.out.println("Logged Out");
         return "logout";
     }
+
+    @RequestMapping(value = "/403", method = RequestMethod.GET)
+    public String error403(ModelMap model) {
+        System.out.println("error 403");
+        return "403";
+    }
 }
